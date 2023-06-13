@@ -64,8 +64,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the registration form !</h1>
-        <p>Please fill the proper information below</p>
+        <h1>Welcome to the exam form !</h1>
+        <p>Please fill the proper information below </p>
         
         <div class="form-container">
             <h2>Contact Form</h2>
