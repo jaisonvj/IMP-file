@@ -64,7 +64,9 @@
 </head>
 <body>
     <div class="container">
+
         <h1>Welcome jesna to the registration service !</h1>
+
         <p>Please fill the proper information below </p>
         
         <div class="form-container">
