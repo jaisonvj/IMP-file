@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Beautiful JSP Page</title>
+    <title>Welcome jaison</title>
     <style>
         /* Add your custom CSS styles here */
         body {
@@ -29,14 +29,62 @@
         
         p {
             color: #666666;
+            margin-bottom: 20px;
+        }
+        
+        .form-container {
+            margin-top: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #dddddd;
+            border-radius: 3px;
+        }
+        
+        .form-button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Beautiful JSP Page!</h1>
-        <p>This is a sample JSP page with a clean and beautiful design.</p>
-        <p>You can enhance it further by adding more HTML, CSS, and dynamic content using JSP tags.</p>
+        <h1>Welcome jesna to the registration service !</h1>
+        <p>Please fill the proper information below </p>
+        
+        <div class="form-container">
+            <h2>Contact Form</h2>
+            <form action="submit-form.jsp" method="post">
+                <div class="form-group">
+                    <label class="form-label" for="name">Name:</label>
+                    <input class="form-input" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-input" type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message:</label>
+                    <textarea class="form-input" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="form-button" type="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
